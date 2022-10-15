@@ -1,0 +1,25 @@
+package estruturasCondicionais; /**
+ * 12) Escreva um programa que leia um número inteiro e exiba o seu módulo.
+ * O módulo de um número x é:
+ * x se x é maior ou igual a zero
+ * x * (-1) se x é menor que zero
+ */
+
+import java.util.Scanner;
+
+public class Questao12 {
+    public static void main(String[] args) {
+        int x;
+
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Valor de x?");
+        x = entrada.nextInt();
+
+        if(x >= 0){
+            System.out.println("Modulo é: " + x);
+        } else {
+            x *= -1;
+            System.out.println("Modulo é: " + x);
+        }
+    }
+}

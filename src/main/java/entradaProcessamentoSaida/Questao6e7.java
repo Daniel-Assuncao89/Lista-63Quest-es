@@ -1,3 +1,5 @@
+package entradaProcessamentoSaida;
+
 import java.util.Scanner;
 
 public class Questao6e7 {

@@ -1,4 +1,4 @@
-/**
+package entradaProcessamentoSaida; /**
  * 2) Faça um programa que:
  * - Leia a cotação do dólar
  * - Leia um valor em dólares
